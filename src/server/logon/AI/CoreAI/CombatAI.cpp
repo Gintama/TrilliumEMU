@@ -34,9 +34,6 @@ int AggressorAI::Permissible(const Creature *creature)
     return PERMIT_BASE_NO;
 }
 
-void AggressorAI::UpdateAI(const uint32 /*diff*/)
-{}
-
 // some day we will delete these useless things
 int CombatAI::Permissible(const Creature* /*creature*/)
 {
@@ -89,9 +86,6 @@ void CombatAI::EnterCombat(Unit *who)
             events.ScheduleEvent(*i, AISpellInfo[*i].cooldown + rand()%AISpellInfo[*i].cooldown);
     }
 }
-
-void CombatAI::UpdateAI(const uint32 diff)
-{}
 
 /////////////////
 //CasterAI
@@ -169,12 +163,6 @@ ArcherAI::ArcherAI(Creature *c) : CreatureAI(c)
     me->m_SightDistance = me->m_CombatDistance;
 }
 
-void ArcherAI::AttackStart(Unit *who)
-{}
-
-void ArcherAI::UpdateAI(const uint32 /*diff*/)
-{}
-
 //////////////
 //TurretAI
 //////////////
@@ -198,9 +186,6 @@ bool TurretAI::CanAIAttack(const Unit* /*who*/) const
         return false;
     return true;
 }
-
-void TurretAI::AttackStart(Unit *who)
-{}
 
 void TurretAI::UpdateAI(const uint32 /*diff*/)
 {

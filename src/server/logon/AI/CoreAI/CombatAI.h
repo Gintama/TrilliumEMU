@@ -33,7 +33,6 @@ class AggressorAI : public CreatureAI
     public:
         explicit AggressorAI(Creature *c) : CreatureAI(c) {}
 
-        void UpdateAI(const uint32);
         static int Permissible(const Creature *);
 };
 
@@ -48,7 +47,6 @@ class CombatAI : public CreatureAI
         void Reset();
         void EnterCombat(Unit* who);
         void JustDied(Unit* killer);
-        void UpdateAI(const uint32 diff);
         static int Permissible(const Creature *);
     protected:
         EventMap events;
@@ -72,7 +70,6 @@ struct ArcherAI : public CreatureAI
     public:
         explicit ArcherAI(Creature *c);
         void AttackStart(Unit *who);
-        void UpdateAI(const uint32 diff);
 
         static int Permissible(const Creature *);
     protected:
@@ -85,7 +82,6 @@ struct TurretAI : public CreatureAI
         explicit TurretAI(Creature *c);
         bool CanAIAttack(const Unit *who) const;
         void AttackStart(Unit *who);
-        void UpdateAI(const uint32 diff);
 
         static int Permissible(const Creature *);
     protected:
