@@ -124,7 +124,7 @@ enum Opcodes
     SMSG_PARTY_MEMBER_STATS                          = 0x0B2BB, //
     SMSG_PARTY_COMMAND_RESULT                        = 0x0F2EF, //
     CMSG_GUILD_CREATE                                = 0x10018, //
-    CMSG_GUILD_INVITE                                = 0x0F232, //
+    CMSG_GUILD_INVITE                                = 0x08C67, // 14545
     SMSG_GUILD_INVITE                                = 0x09F65, //
     CMSG_GUILD_ACCEPT                                = 0x1001A, //
     CMSG_GUILD_DECLINE                               = 0x1001B, //
