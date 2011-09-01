@@ -689,7 +689,7 @@ enum Opcodes
     SMSG_GAMEOBJECT_RESET_STATE                      = 0x0AAAE, //
     CMSG_REPAIR_ITEM                                 = 0x032BF, //
     SMSG_CHAT_PLAYER_NOT_FOUND                       = 0x0B2A2, //
-    MSG_TALENT_WIPE_CONFIRM                          = 0x02EA7, //
+    MSG_TALENT_WIPE_CONFIRM                          = 0x04C52, // 14545
     SMSG_SUMMON_REQUEST                              = 0x022FF, //
     CMSG_SUMMON_RESPONSE                             = 0x0D84E, // 14545
     MSG_MOVE_TOGGLE_GRAVITY_CHEAT                    = 0x1011D, //
