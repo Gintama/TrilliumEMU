@@ -896,7 +896,7 @@ enum Opcodes
     SMSG_LFG_PARTY_INFO                              = 0x0AEAA, //
     SMSG_TITLE_EARNED                                = 0x0AEBA, //
     CMSG_SET_TITLE                                   = 0x0627B, //
-    CMSG_CANCEL_MOUNT_AURA                           = 0x0FEBA, //
+    CMSG_CANCEL_MOUNT_AURA                           = 0x0D8F3, // 14545
     SMSG_ARENA_ERROR                                 = 0x0F2FE, //
     MSG_INSPECT_ARENA_TEAMS                          = 0x072A3, //
     SMSG_DEATH_RELEASE_LOC                           = 0x10191, //
