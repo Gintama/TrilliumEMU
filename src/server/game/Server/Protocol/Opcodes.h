@@ -527,7 +527,7 @@ enum Opcodes
     SMSG_EXPLORATION_EXPERIENCE                      = 0x0A66A, //
     CMSG_GM_SET_SECURITY_GROUP                       = 0x100DE, //
     CMSG_GM_NUKE                                     = 0x100DF, //
-    MSG_RANDOM_ROLL                                  = 0x0FEFB, //
+    MSG_RANDOM_ROLL                                  = 0x04C57, // 14545
     SMSG_ENVIRONMENTALDAMAGELOG                      = 0x06EE6, //
     CMSG_PLAYER_DIFFICULTY_CHANGE                    = 0x066F2, //
     SMSG_RWHOIS                                      = 0x0E63A, //
