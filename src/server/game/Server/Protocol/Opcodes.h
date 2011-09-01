@@ -368,7 +368,7 @@ enum Opcodes
     SMSG_BINDZONEREPLY                               = 0x0622E, //
     SMSG_PLAYERBOUND                                 = 0x06EAE, //
     SMSG_CLIENT_CONTROL_UPDATE                       = 0x0E267, //
-    CMSG_REPOP_REQUEST                               = 0x0F23A, //
+    CMSG_REPOP_REQUEST                               = 0x08872, // 14545
     SMSG_RESURRECT_REQUEST                           = 0x0322E, //
     CMSG_RESURRECT_RESPONSE                          = 0x0BA32, //
     CMSG_LOOT                                        = 0x0726B, //
