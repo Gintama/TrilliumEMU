@@ -373,7 +373,7 @@ enum Opcodes
     CMSG_RESURRECT_RESPONSE                          = 0x0BA32, //
     CMSG_LOOT                                        = 0x0726B, //
     CMSG_LOOT_MONEY                                  = 0x03AEA, //
-    CMSG_LOOT_RELEASE                                = 0x0E273, //
+    CMSG_LOOT_RELEASE                                = 0x04A6A, // 14545
     SMSG_LOOT_RESPONSE                               = 0x0F663, //
     SMSG_LOOT_RELEASE_RESPONSE                       = 0x0F66E, //
     SMSG_LOOT_REMOVED                                = 0x0327F, //
