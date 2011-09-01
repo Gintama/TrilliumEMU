@@ -698,7 +698,7 @@ enum Opcodes
     MSG_MOVE_FEATHER_FALL                            = 0x10120, //
     MSG_MOVE_WATER_WALK                              = 0x10121, //
     CMSG_SERVER_BROADCAST                            = 0x10122, // 
-    CMSG_SELF_RES                                    = 0x0B2B3, //
+    CMSG_SELF_RES                                    = 0x0CCFE, // 14545
     SMSG_FEIGN_DEATH_RESISTED                        = 0x0BA2B, //
     CMSG_RUN_SCRIPT                                  = 0x10124, //
     SMSG_SCRIPT_MESSAGE                              = 0x10125, //
