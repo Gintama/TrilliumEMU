@@ -691,7 +691,7 @@ enum Opcodes
     SMSG_CHAT_PLAYER_NOT_FOUND                       = 0x0B2A2, //
     MSG_TALENT_WIPE_CONFIRM                          = 0x02EA7, //
     SMSG_SUMMON_REQUEST                              = 0x022FF, //
-    CMSG_SUMMON_RESPONSE                             = 0x07A3A, //
+    CMSG_SUMMON_RESPONSE                             = 0x0D84E, // 14545
     MSG_MOVE_TOGGLE_GRAVITY_CHEAT                    = 0x1011D, //
     SMSG_MONSTER_MOVE_TRANSPORT                      = 0x0B2BA, //
     SMSG_PET_BROKEN                                  = 0x0FE3A, //
