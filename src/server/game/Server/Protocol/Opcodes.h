@@ -73,7 +73,7 @@ enum Opcodes
     CMSG_LOGOUT_REQUEST                              = 0x0B2A6, //
     SMSG_LOGOUT_RESPONSE                             = 0x062BA, //
     SMSG_LOGOUT_COMPLETE                             = 0x0A27F, //
-    CMSG_LOGOUT_CANCEL                               = 0x0F2BF, //
+    CMSG_LOGOUT_CANCEL                               = 0x00A76, // 14545
     SMSG_LOGOUT_CANCEL_ACK                           = 0x0AA37, //
     CMSG_NAME_QUERY                                  = 0x07266, //
     SMSG_NAME_QUERY_RESPONSE                         = 0x0FA67, //
