@@ -271,7 +271,7 @@ enum Opcodes
     CMSG_MOVE_HOVER_ACK                              = 0x10080, //
     MSG_MOVE_HOVER                                   = 0x10081, //
     CMSG_TRIGGER_CINEMATIC_CHEAT                     = 0x10082, //
-    CMSG_OPENING_CINEMATIC                           = 0x0323E, //
+    CMSG_OPENING_CINEMATIC                           = 0x0D8D2, // 14545
     SMSG_TRIGGER_CINEMATIC                           = 0x0A2FE, //
     CMSG_NEXT_CINEMATIC_CAMERA                       = 0x0A2BA, //
     CMSG_COMPLETE_CINEMATIC                          = 0x0B2F7, //
