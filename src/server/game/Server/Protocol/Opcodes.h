@@ -512,7 +512,7 @@ enum Opcodes
     MSG_GM_SUMMON                                    = 0x100D6, //
     SMSG_ITEM_TIME_UPDATE                            = 0x0763E, //
     SMSG_ITEM_ENCHANT_TIME_UPDATE                    = 0x0362A, //
-    SMSG_AUTH_CHALLENGE                              = 0x08C10, //
+    SMSG_AUTH_CHALLENGE                              = 0x01181, // 14545
     CMSG_AUTH_SESSION                                = 0x01019, // 14545
     SMSG_AUTH_RESPONSE                               = 0x0BEFB, //
     MSG_GM_SHOWLABEL                                 = 0x100D9, //
@@ -1275,7 +1275,7 @@ enum Opcodes
     CMSG_SET_ALLOW_LOW_LEVEL_RAID2                   = 0x10285, //
     SMSG_CAMERA_SHAKE                                = 0x10286, //
     SMSG_UPDATE_ITEM_ENCHANTMENTS                    = 0x036BA, //
-    SMSG_REDIRECT_CLIENT                             = 0x00410, //
+    SMSG_REDIRECT_CLIENT                             = 0x00180, // 14545
     CMSG_REDIRECTION_FAILED                          = 0x1028A, //
     SMSG_SUSPEND_COMMS                               = 0x1028B, //
     CMSG_SUSPEND_COMMS_ACK                           = 0x08490, //
