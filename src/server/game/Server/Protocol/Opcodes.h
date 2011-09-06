@@ -43,7 +43,7 @@ enum Opcodes
     */
 
     CMSG_WORLD_TELEPORT                              = 0x00080, //
-    CMSG_TELEPORT_TO_UNIT                            = 0x0E62B, //
+    CMSG_TELEPORT_TO_UNIT                            = 0x08C72, // 14545
     SMSG_CHECK_FOR_BOTS                              = 0x10002, //
     CMSG_BOT_DETECTED2                               = 0x10003, //
     SMSG_FORCEACTIONSHOW                             = 0x07AEA, //
