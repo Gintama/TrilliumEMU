@@ -640,7 +640,7 @@ enum Opcodes
     MSG_QUEST_PUSH_RESULT                            = 0x0BE3A, //
     SMSG_PLAY_MUSIC                                  = 0x0EABB, //
     SMSG_PLAY_OBJECT_SOUND                           = 0x0F22B, //
-    CMSG_REQUEST_PET_INFO                            = 0x0A6A2, //
+    CMSG_REQUEST_PET_INFO                            = 0x09A47, // 14545
     CMSG_FAR_SIGHT                                   = 0x1010B, //
     SMSG_SPELLDISPELLOG                              = 0x1010C, //
     SMSG_DAMAGE_CALC_LOG                             = 0x06AEF, //
