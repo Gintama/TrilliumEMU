@@ -514,7 +514,7 @@ enum Opcodes
     SMSG_ITEM_ENCHANT_TIME_UPDATE                    = 0x0362A, //
     SMSG_AUTH_CHALLENGE                              = 0x01181, // 14545
     CMSG_AUTH_SESSION                                = 0x01019, // 14545
-    SMSG_AUTH_RESPONSE                               = 0x0BEFB, //
+    SMSG_AUTH_RESPONSE                               = 0x08867, // 14545
     MSG_GM_SHOWLABEL                                 = 0x100D9, //
     CMSG_PET_CAST_SPELL                              = 0x0B66B, //
     MSG_SAVE_GUILD_EMBLEM                            = 0x06A36, //
