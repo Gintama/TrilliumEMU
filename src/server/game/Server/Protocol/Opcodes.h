@@ -55,7 +55,7 @@ enum Opcodes
     CMSG_CHAR_DELETE                                 = 0x01ED3, // 14545
     SMSG_CHAR_CREATE                                 = 0x03E36, //
     SMSG_CHAR_ENUM                                   = 0x0C727, //
-    SMSG_CHAR_DELETE                                 = 0x03EFA, //
+    SMSG_CHAR_DELETE                                 = 0x048CE, // 14545
     CMSG_PLAYER_LOGIN                                = 0x010D1, //
     SMSG_NEW_WORLD                                   = 0x00F01, //
     SMSG_TRANSFER_PENDING                            = 0x026EA, //
@@ -71,10 +71,10 @@ enum Opcodes
     SMSG_SERVERTIME                                  = 0x07236, //
     CMSG_PLAYER_LOGOUT                               = 0x01CEE, // 14545
     CMSG_LOGOUT_REQUEST                              = 0x04C7A, // 14545
-    SMSG_LOGOUT_RESPONSE                             = 0x062BA, //
+    SMSG_LOGOUT_RESPONSE                             = 0x0886A, // 14545
     SMSG_LOGOUT_COMPLETE                             = 0x0A27F, //
     CMSG_LOGOUT_CANCEL                               = 0x00A76, // 14545
-    SMSG_LOGOUT_CANCEL_ACK                           = 0x0AA37, //
+    SMSG_LOGOUT_CANCEL_ACK                           = 0x0D8EF, // 14545
     CMSG_NAME_QUERY                                  = 0x07266, //
     SMSG_NAME_QUERY_RESPONSE                         = 0x0FA67, //
     CMSG_PET_NAME_QUERY                              = 0x0BE3E, //
@@ -1211,7 +1211,7 @@ enum Opcodes
     CMSG_PLAYER_VEHICLE_ENTER                        = 0x0EEA2, //
     CMSG_EJECT_PASSENGER                             = 0x03E6E, //
     SMSG_PET_GUIDS                                   = 0x0EE2F, //
-    SMSG_CLIENTCACHE_VERSION                         = 0x0A237, //
+    SMSG_CLIENTCACHE_VERSION                         = 0x088F2, // 14545
     SMSG_ITEM_REFUND_INFO_RESPONSE                   = 0x10260, // 
     CMSG_ITEM_REFUND_INFO                            = 0x01C7E, // 14545
     CMSG_ITEM_REFUND                                 = 0x0762A, //
