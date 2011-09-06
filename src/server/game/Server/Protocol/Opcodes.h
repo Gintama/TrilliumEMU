@@ -72,7 +72,7 @@ enum Opcodes
     CMSG_PLAYER_LOGOUT                               = 0x01CEE, // 14545
     CMSG_LOGOUT_REQUEST                              = 0x04C7A, // 14545
     SMSG_LOGOUT_RESPONSE                             = 0x0886A, // 14545
-    SMSG_LOGOUT_COMPLETE                             = 0x0A27F, //
+    SMSG_LOGOUT_COMPLETE                             = 0x0CC6B, // 14545
     CMSG_LOGOUT_CANCEL                               = 0x00A76, // 14545
     SMSG_LOGOUT_CANCEL_ACK                           = 0x0D8EF, // 14545
     CMSG_NAME_QUERY                                  = 0x07266, //
