@@ -53,14 +53,14 @@ enum Opcodes
     CMSG_CHAR_CREATE                                 = 0x01AC6, // 14545
     CMSG_CHAR_ENUM                                   = 0x01091, //
     CMSG_CHAR_DELETE                                 = 0x01ED3, // 14545
-    SMSG_CHAR_CREATE                                 = 0x03E36, //
+    SMSG_CHAR_CREATE                                 = 0x04C5B, // 14545
     SMSG_CHAR_ENUM                                   = 0x0C727, //
     SMSG_CHAR_DELETE                                 = 0x048CE, // 14545
     CMSG_PLAYER_LOGIN                                = 0x010D1, //
     SMSG_NEW_WORLD                                   = 0x00F01, //
     SMSG_TRANSFER_PENDING                            = 0x026EA, //
     SMSG_TRANSFER_ABORTED                            = 0x066AF, //
-    SMSG_CHARACTER_LOGIN_FAILED                      = 0x0B2E3, //
+    SMSG_CHARACTER_LOGIN_FAILED                      = 0x04AE6, // 14545
     SMSG_LOGIN_SETTIMESPEED                          = 0x0766F, //
     SMSG_GAMETIME_UPDATE                             = 0x06AFE, //
     CMSG_GAMETIME_SET                                = 0x10008, //
