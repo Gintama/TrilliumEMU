@@ -1076,7 +1076,7 @@ enum Opcodes
     SMSG_SPLINE_MOVE_UNSET_FLYING                    = 0x101FD, //
     SMSG_SUMMON_CANCEL                               = 0x101FE, //
     CMSG_CHANGE_PERSONAL_ARENA_RATING                = 0x101FF, //
-    CMSG_ALTER_APPEARANCE                            = 0x07EA3, //
+    CMSG_ALTER_APPEARANCE                            = 0x05CE3, // 14545
     SMSG_ENABLE_BARBER_SHOP                          = 0x0367A, //
     SMSG_BARBER_SHOP_RESULT                          = 0x0FEEA, //
     CMSG_CALENDAR_GET_CALENDAR                       = 0x02672, //
