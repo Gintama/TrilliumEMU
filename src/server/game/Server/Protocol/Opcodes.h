@@ -69,8 +69,8 @@ enum Opcodes
     SMSG_GAMESPEED_SET                               = 0x0AAB2, //
     CMSG_SERVERTIME                                  = 0x1000B, //
     SMSG_SERVERTIME                                  = 0x07236, //
-    CMSG_PLAYER_LOGOUT                               = 0x0EAEE, //
-    CMSG_LOGOUT_REQUEST                              = 0x0B2A6, //
+    CMSG_PLAYER_LOGOUT                               = 0x01CEE, // 14545
+    CMSG_LOGOUT_REQUEST                              = 0x04C7A, // 14545
     SMSG_LOGOUT_RESPONSE                             = 0x062BA, //
     SMSG_LOGOUT_COMPLETE                             = 0x0A27F, //
     CMSG_LOGOUT_CANCEL                               = 0x00A76, // 14545
