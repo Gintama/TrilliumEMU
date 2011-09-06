@@ -248,14 +248,14 @@ int WorldSocket::open (void *a)
     // Send startup packet.
     WorldPacket packet(SMSG_AUTH_CHALLENGE, 37);
     packet << uint32(0);
-    packet << uint32(0);
-    packet << uint32(0);
-    packet << uint32(0);
     packet << m_Seed;
+    packet << uint32(0);
+    packet << uint32(0);
+    packet << uint32(0);
+    packet << uint32(0);
+    packet << uint32(0);
+    packet << uint32(0);
     packet << uint8(1);
-    packet << uint32(0);
-    packet << uint32(0);
-    packet << uint32(0);
     packet << uint32(0);
 
     if (SendPacket(packet) == -1)
@@ -768,22 +768,22 @@ int WorldSocket::HandleAuthSession(WorldPacket& recvPacket)
     WorldPacket packet;
 
     recvPacket.read_skip<uint8>();
+    recvPacket.read(Hash, 1);
+    recvPacket.read_skip<uint32>();
+    recvPacket.read_skip<uint32>();
     recvPacket.read(Hash, 5);
+    recvPacket.read_skip<uint8>();
     recvPacket >> clientBuild;
-    recvPacket.read(Hash, 2);
-    recvPacket.read_skip<uint8>();
-    recvPacket.read_skip<uint32>();
     recvPacket.read(Hash, 4);
-    recvPacket.read_skip<uint64>();
-    recvPacket.read_skip<uint8>();
-    recvPacket.read(Hash, 2);
-    recvPacket.read_skip<uint32>();
-    recvPacket.read(Hash, 4);
-    recvPacket >> clientSeed;
-    recvPacket.read(Hash, 2);
     recvPacket.read_skip<uint32>();
     recvPacket.read(Hash, 1);
     recvPacket.read_skip<uint32>();
+    recvPacket.read(Hash, 1);
+    recvPacket >> clientSeed;
+    recvPacket.read_skip<uint8>();
+    recvPacket.read(Hash, 4);
+    recvPacket.read_skip<uint64>();
+    recvPacket.read(Hash, 4);
     recvPacket >> account;
 
     recvPacket >> m_addonSize;                            // addon data size
