@@ -280,7 +280,7 @@ enum Opcodes
     CMSG_TUTORIAL_CLEAR                              = 0x0B2FB, //
     CMSG_TUTORIAL_RESET                              = 0x0B6BF, //
     CMSG_STANDSTATECHANGE                            = 0x09EC6, // 14545
-    CMSG_EMOTE                                       = 0x0B6AF, //
+    CMSG_EMOTE                                       = 0x09843, // 14545
     SMSG_EMOTE                                       = 0x076FE, //
     CMSG_TEXT_EMOTE                                  = 0x07EB6, //
     SMSG_TEXT_EMOTE                                  = 0x026EF, //
