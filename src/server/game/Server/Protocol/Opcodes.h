@@ -298,7 +298,7 @@ enum Opcodes
     CMSG_DESTROYITEM                                 = 0x06E7A, //
     SMSG_INVENTORY_CHANGE_FAILURE                    = 0x036A2, //
     SMSG_OPEN_CONTAINER                              = 0x10090, //
-    CMSG_INSPECT                                     = 0x06AAF, //
+    CMSG_INSPECT                                     = 0x09A7B, // 14545
     SMSG_INSPECT                                     = 0x10091, //
     CMSG_INITIATE_TRADE                              = 0x10092, //
     CMSG_BEGIN_TRADE                                 = 0x10093, //
