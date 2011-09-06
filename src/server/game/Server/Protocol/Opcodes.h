@@ -542,7 +542,7 @@ enum Opcodes
     CMSG_GMTICKET_UPDATETEXT                         = 0x06A2B, //
     SMSG_GMTICKET_UPDATETEXT                         = 0x0F62B, //
     SMSG_ACCOUNT_DATA_TIMES                          = 0x02E3E, // 
-    CMSG_REQUEST_ACCOUNT_DATA                        = 0x07E3B, //
+    CMSG_REQUEST_ACCOUNT_DATA                        = 0x08AF2, // 14545
     CMSG_UPDATE_ACCOUNT_DATA                         = 0x066FF, //
     SMSG_UPDATE_ACCOUNT_DATA                         = 0x0AA66, //
     SMSG_CLEAR_FAR_SIGHT_IMMEDIATE                   = 0x06E7B, //
